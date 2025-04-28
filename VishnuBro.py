@@ -1,9 +1,9 @@
-import os, asyncio, aiohttp, sys, random, time
+import os, asyncio, aiohttp, sys, time
 from datetime import datetime
-from colorama import Fore , Style
+from colorama import Fore
 from packaging import version
 try:
-    from pystyle import Colorate, Write, System, Colors, Center, Anime
+    from pystyle import Center
     import requests
 except:
     os.system('pip install pystyle')
@@ -17,7 +17,7 @@ def set_console_title(title):
 set_console_title("VishnuBro Nuker |dev By P6cy |developed for vishnu bro")   
 
     
-__VERSION__ = '1.0)'  
+__VERSION__ = '1.0'  
 
 try:
     os.system('cls')
@@ -83,7 +83,7 @@ async def create_role(session, role_name, color: int = 0):
                     else:
                         break
         except:
-            print(f"\033[90m{datetime.utcnow().strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Create Role in {guild_id}")
+            print(f"\033[90m{datetime.now(datetime.timezone.utc).strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Create Role in {guild_id}")
             pass
 
 async def delete_channel(session, channel_id):
@@ -99,7 +99,7 @@ async def delete_channel(session, channel_id):
                     else:
                         break
         except:
-            print(f"\033[90m{datetime.utcnow().strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Delete Channel in {guild_id}")
+            print(f"\033[90m{datetime.now(datetime.timezone.utc).strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Delete Channel in {guild_id}")
             pass
 async def get_roles():
     roleIDS = []
@@ -153,7 +153,7 @@ async def ban_members(session, member_id:str):
                     else:
                         break
         except:
-            print(f"\033[90m{datetime.utcnow().strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Ban Member in {guild_id}")
+            print(f"\033[90m{datetime.now(datetime.timezone.utc).strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Ban Member in {guild_id}")
             pass
 
 
@@ -170,7 +170,7 @@ async def role_delete(session, role_id:str):
                     else:
                         break
         except:
-            print(f"\033[90m{datetime.utcnow().strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Delete Role in {guild_id}")
+            print(f"\033[90m{datetime.now(datetime.timezone.utc).strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Delete Role in {guild_id}")
             pass
 
 
@@ -195,7 +195,7 @@ async def weebhook_spam(session , channel_id, web_name , msg_amt:int ,msg):
                     else:
                         break
         except:
-            print(f"\033[90m{datetime.utcnow().strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Create Webhook in {guild_id}")
+            print(f"\033[90m{datetime.now(datetime.timezone.utc).strftime(' %H:%M:%S.%f - ')}\x1b[38;5;141mCouldn't Create Webhook in {guild_id}")
             pass
 
 def slow_write(text):
@@ -226,11 +226,7 @@ async def main():
 
     time.sleep(0.00002)
     print(purplepink(logo), end='')
-    slow_write(Center.XCenter(f"""
-                                         \033[38;2;150;0;255m> M\033[0m\033[38;2;140;0;255ma\033[0m\033[38;2;130;0;255md\033[0m\033[38;2;120;0;255me \033[0m\033[38;2;110;0;255mB\033[0m\033[38;2;100;0;255my\033[0m \033[38;2;90;0;255mZ\033[0m\033[38;2;80;0;255my\033[0m\033[38;2;70;0;255mZ\033[0m\033[38;2;60;0;255me\033[0m \033[38;2;50;0;255mJ\033[0m\033[38;2;40;0;255mu\033[0m\033[38;2;30;0;255ms\033[0m\033[38;2;20;0;255mt\033[0m\033[38;2;10;0;255mi\033[0m\033[38;2;0;0;255mc\033[0m\033[38;2;10;0;255me\033[0m
-
-
-    """))
+  
 
     print(Center.XCenter(f"""                                  
                           \033[38;2;255;0;205m╔══════════════════════════════╦═══════════════════════════════╗\033[0m
