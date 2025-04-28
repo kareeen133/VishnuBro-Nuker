@@ -1,0 +1,6 @@
+discord.py>=2.3.2
+requests>=2.31.0
+python-dotenv>=1.0.0
+asyncio>=3.4.3
+aiohttp>=3.8.5
+colorama>=0.4.6
