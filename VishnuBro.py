@@ -266,7 +266,7 @@ async def main():
         await asyncio.sleep(1)
         await main()        
     elif choose == '6':
-        web_name = "Ran By .GG/VAASTE"
+        web_name = "Ran By VishnuBro"
         web_msg = input(Fore.LIGHTCYAN_EX+"                                        Webhook Content:  ")
         msg_amt = int(input(Fore.LIGHTCYAN_EX+"                                        Amount of Messages:  "))
         
