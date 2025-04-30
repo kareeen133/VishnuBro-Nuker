@@ -1,23 +1,52 @@
-DISCLAIMER: FOR EDUCATIONAL PURPOSES ONLY
+<p align="center">
+  <img src="https://i.imgur.com/your-banner-image.png" alt="VishnuBro Banner">
+</p>
 
-⚡ VISHNU BRO NUKER ⚡
+<h1 align="center">⚡ VishnuBro Nuker ⚡</h1>
+<h3 align="center">Advanced Discord Server Management Toolkit</h3>
 
-A powerful Discord server nuker tool
-Created by: p6cy
+<div align="center">
+  
+  ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)
+  ![License](https://img.shields.io/badge/license-MIT-green)
+  ![Status](https://img.shields.io/badge/status-active-brightgreen)
+  
+</div>
 
-Features:
-- Member Baning 
-- Mass Ping
-- Mass channel deleting creating
-- And all features of an discord nuker
+## 🚀 Features
 
-⚠️ WARNING:
-- This tool is intended for educational understanding only
-- Improper use may violate Discord's Terms of Service
-- We do not promote or encourage server disruption
+- **Mass Moderation Tools**
+  - Ban Hammer: Bulk member removal
+  - Channel Purge: Delete all existing channels
+  - Server Reset: Full channel reconstruction
 
-Need support or have questions?
-Contact: p6cy on Discord
+- **Automation Systems**
+  - Message Spammer: Custom message flooding
+  - Ping Storm: Mass mention capabilities
+  - Role Wrecker: Permission manipulation
 
-Use responsibly and ethically.
-Made with ❤️ for educational exploration.
+- **Core Utilities**
+  - Token Authentication System
+  - Rate Limit Bypass
+  - Async-Powered Execution
+
+## ⚠️ Critical Warning
+
+
+- THIS TOOL VIOLATES DISCORD'S TERMS OF SERVICE
+- USE ONLY ON PRIVATE SERVERS YOU OWN
+- NEVER DEPLOY WITHOUT EXPLICIT PERMISSION
+- EDUCATIONAL USE STRICTLY ENFORCED
+
+**📥 Installation**
+Prerequisites:
+
+Python 3.10+ installed
+
+Git (optional but recommended)
+```
+git clone https://github.com/kareeen133/VishnuBro-Nuker.git
+cd VishnuBro-Nuker
+pip install -r requirements.txt
+python vishnubro.py 
+
